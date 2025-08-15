@@ -230,7 +230,7 @@ h1 img {
 
 /* news */
 .news {
-    background-image: url(./img/newsbg.png);
+    background-image: url(../img/newsbg.png);
     background-size: cover;
     margin-top: 80px;
     padding-bottom: 73px;
@@ -396,7 +396,7 @@ MENU
 
 .menu-link a::after {
     content: "";
-    background-image: url(/img/Vector\ 1.png);
+    background-image: url(../img/Vector\ 1.png);
     background-size: cover;
     position: absolute;
     bottom: -24px;
@@ -537,7 +537,7 @@ news
 
 .news-link a::after {
     content: "";
-    background-image: url(/img/Vector\ 2.png);
+    background-image: url(../img/Vector\ 2.png);
     background-size: cover;
     position: absolute;
     bottom: -24px;
@@ -548,7 +548,7 @@ news
 }
 
 .seemore-link a:hover::after {
-    background-image: url(/img/Vector\ 3.png);
+    background-image: url(../img/Vector\ 3.png);
 
 }
 
@@ -748,6 +748,7 @@ SP
 
 
 }
+
 
 
 
