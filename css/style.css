@@ -396,7 +396,7 @@ MENU
 
 .menu-link a::after {
     content: "";
-    background-image: url(/img/Vector\ 1.png);
+    background-image: url(img/Vector\ 1.png);
     background-size: cover;
     position: absolute;
     bottom: -24px;
@@ -748,3 +748,4 @@ SP
 
 
 }
+
