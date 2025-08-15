@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>BURGER STAND</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+    <header class="container header">
+        <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+        <nav class="nav-container">
+            <ul class="header-list">
+                <li class="header-item"><a href="index.html#about">About</a></li>
+                <li class="header-item"><a href="menu.html">Menu</a></li>
+                <li class="header-item"><a href="news.html">News</a></li>
+                <li class="header-item"><a href="index.html#access">Access</a></li>
+                <li class="header-item"><a href="reserve.html">Reserve</a></li>
+            </ul>
+        </nav>
+        <div class="nav-btn">
+            <img src="img/burger_logo.png" alt="" class="btn-b">
+            <img src="img/potato_logo.png" alt="" class="btn-p">
+        </div>
+        <div class="mask"></div>
+    </header>
+
+    <main>
+        <div class="container sub-page">
+            <h2 class="section-title">
+                <p class="text">Reserve</p>
+                <img src="img/Vector 1.png" alt="">
+            </h2>
+            <div class="reserve-wrapper">
+                <p class="text">
+                    BURGERSTANDでは、店内飲食・テラス席・テイクアウトのご予約を承っております。週末やランチタイムは混雑が予想されますので、事前のご予約をおすすめしております。ご家族連れやお子さま連れのお客様もゆったりお過ごしいただけるよう、スタッフ一同心を込めてご案内いたします。下記フォームまたはお電話にてお気軽にご予約ください。
+                </p>
+                <form action="#" method="post">
+                    <dl>
+                        <dt><label for="name">
+                                <img src="img/people.png" alt="">
+                                人数</label></dt>
+                        <dd><input type="text" name="form-name" value="" id="name"></dd>
+                        <dt><label for="visitdate">
+                                <img src="img/calendar.png" alt="">
+                                来店日</label></dt>
+                        <dd><input type="date" name="example" value="" id="visitdate"></dd>
+                        <dt><label for="visittime">
+                                <img src="img/time.png" alt="">
+                                時間</label></dt>
+                        <dd><input type="time" name="example" value="" id="visittime"></dd>
+                    </dl>
+                    <div class="submitbtn">
+                        <input type="submit" value="予約に進む" id="send">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>Copyright 2025 BURGER STAND</small>
+    </footer>
+    <div class="top-btn">
+        <a href="#">TOP⇁</a>
+    </div>
+    <div class="reserve-b">
+        <a href="reserve.html" class="btn reserve-btn">Reserve</a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

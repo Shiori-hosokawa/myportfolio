@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <style>
+        body {
+            margin: 0;
+            background: #fefcf6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 40px;
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 12px;
+            background: #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .loading-bar-fill {
+            width: 0%;
+            height: 100%;
+            background-color: #f47e7e;
+            animation: fill 3s ease-in-out forwards;
+        }
+
+        @keyframes fill {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="img/burger_logo.png" alt="Burger Icon" class="logo">
+    <div class="loading-bar">
+        <div class="loading-bar-fill"></div>
+    </div>
+
+    <script>
+        // ローディングが終わったらメインページに遷移
+        setTimeout(() => {
+            window.location.href = "index.html"; // メインページへのリンク
+        }, 3200); // アニメーション時間＋α
+    </script>
+</body>
+
+</html>
